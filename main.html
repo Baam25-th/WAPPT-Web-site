@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>WAPTT</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Capstone Project 2 - C2NE.04</h2>
+            <div class="wrapper">
+                <div class="main-title">
+                    <div class="scanner" id="scanner">Online Scanning</div>
+                    <span class="line"></span>
+                    <div class="history" id="scan-history">History Scanning</div>
+                </div>
+                
+
+                <div class="scan-slider">
+                    <div class="scanning" id="form-scanner">
+                      <form>
+                          <input type="search" id="scanning-input" placeholder="Enter URL...">
+                          <button id="scan">SCAN</button>
+                      </form>
+                    </div>
+                    <div class="scan-history" id="form-history" hidden>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>STT</th>
+                            <th>URL Scanner</th>
+                            <th>Time Scan</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td><a href="#">Url Term 1</a></td>
+                            <td>May 5, 2023 at 10:30 AM</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td><a href="#">Url Term 2</a></td>
+                            <td>May 4, 2023 at 2:45 PM</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td><a href="#">Url Term 3</a></td>
+                            <td>May 3, 2023 at 9:15 AM</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td><a href="#">Url Term 4</a></td>
+                            <td>May 2, 2023 at 7:20 PM</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td><a href="#">Url Term 5</a></td>
+                            <td>May 1, 2023 at 11:10 AM</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
